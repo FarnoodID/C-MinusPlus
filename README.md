@@ -10,7 +10,6 @@ The repository consists of the following files:
 - **`lang.y`**: The parser specification for the C-MinusPlus language.
 - **`ex1.l`, `ex2.l`, `ex3.l`, `ex4.l`**: Example lexers demonstrating various functionalities of the language.
 - **`run.sh`**: A shell script to automate the compilation and execution of the compiler.
-- **`README.md`**: This documentation file.
 
 ## Features of C-MinusPlus
 
