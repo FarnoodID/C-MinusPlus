@@ -1,6 +1,6 @@
-# C-MinusPlus Language Interpreter Repository
+# C-MinusPlus Language Compiler
 
-Welcome to the **C-MinusPlus** Language Interpreter! This repository contains the implementation of a new programming language called C-MinusPlus, designed to provide a fun and educational experience in programming language development. Below, you will find detailed information about the project, its structure, features, and how to run it.
+Welcome to the **C-MinusPlus** Language Compiler! This repository contains the implementation of a new programming language called C-MinusPlus, designed to provide a fun and educational experience in programming language development. Below, you will find detailed information about the project, its structure, features, and how to run it.
 
 ## Repository Structure
 
@@ -9,7 +9,7 @@ The repository consists of the following files:
 - **`lang.l`**: The lexer specification for the C-MinusPlus language.
 - **`lang.y`**: The parser specification for the C-MinusPlus language.
 - **`ex1.l`, `ex2.l`, `ex3.l`, `ex4.l`**: Example lexers demonstrating various functionalities of the language.
-- **`run.sh`**: A shell script to automate the compilation and execution of the interpreter.
+- **`run.sh`**: A shell script to automate the compilation and execution of the compiler.
 - **`README.md`**: This documentation file.
 
 ## Features of C-MinusPlus
@@ -139,12 +139,12 @@ Ensure you have Flex and Bison installed on your Ubuntu system. You can install 
    ```
    
 3. Run the Script:
-Execute the run.sh script to compile and run the interpreter:
+Execute the run.sh script to compile and run the compiler:
    ```bash
    chmod +x run.sh
    ./run.sh
    ```
-This script will generate necessary files from .l and .y files, compile them into an executable, remove intermediate files, and then run the interpreter.
+This script will generate necessary files from .l and .y files, compile them into an executable, remove intermediate files, and then run the compiler.
 
 ## Project Implementation Details
 The project has been tested on Ubuntu 20.04.5 LTS distribution. 
@@ -155,6 +155,6 @@ The project has been tested on Ubuntu 20.04.5 LTS distribution.
 - The example lexers show practical implementations of specific functionalities such as counting characters or lines, identifying capital letters, and handling simple input strings.
 
 ## Conclusion
-Thank you for exploring the C-MinusPlus Language Interpreter! I hope this project inspires you to dive deeper into programming languages and compiler design. If you have any questions or suggestions, feel free to reach out or contribute to this repository!
+Thank you for exploring the C-MinusPlus Language Compiler! I hope this project inspires you to dive deeper into programming languages and compiler design. If you have any questions or suggestions, feel free to reach out or contribute to this repository!
 
 Happy coding!
